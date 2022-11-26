@@ -2,7 +2,7 @@
 # This disables my touchscreen
 #search for "Touchscreen" or something like that in /proc/bus/input/devices to make sure you're disabling what you want to disable.
 
-path_for_temp_files="/home/auth/temp"
+path_for_temp_files="$HOME/temp"
 regex='event([0-9]+)'
 DEVICE="Touchscreen"
 
